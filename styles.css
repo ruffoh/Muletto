@@ -1,0 +1,156 @@
+#BottoneCerca{
+    background-color: blueviolet;
+    border: none;
+    text-align: center;
+    height: 30px;
+}
+html{
+    background-color: #f6f2f9;
+    margin: 3% 20%;
+}
+.CercaArgomenti{
+    
+    background-color: white;
+    padding: 2% 0 ;
+    text-align: center;
+    margin: 3% 0;
+}
+.Sopra {
+padding:5px 2px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+
+}
+.Sopra button {
+    border: none;
+    background-color: transparent;
+    color:white;
+    margin: 5px 2px;
+
+}
+#Barra{
+    background-color: #7f6ba5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+ 
+  width: 100%;
+  
+}
+#Barra img {
+    margin-right: 10px;
+}
+.Articoli{
+    
+    background-color: white;
+    padding: 2% 3%;
+    text-align: center;
+    margin: 3% 0;
+    text-align: start;
+    height: 15%;
+    margin : 10% 0 ;
+}
+.Articoli h6 {
+    margin:0;
+}
+.Articoli a {
+    margin: 5px 0 ;
+    text-decoration: none;
+}
+.Articoli hr {
+    color: gray;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    
+    
+}
+.InputSopra{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    
+}
+.Tag{
+    background-color: white;
+    
+    padding: 5px 2%;
+    
+}
+.Tag :first-child{
+    text-align: center;
+}
+.Tag button{
+    background-color: transparent;
+    border-color: rgba(228, 225, 225, 0.473);
+    border-width: 1px;
+    
+}
+#Container{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+}
+.ROW{
+    display: flex;
+    flex-direction: row;
+}
+li a {
+    color: orange;
+    text-decoration: none;
+     font-weight: 600;
+     font-size: 13px;
+}
+#Sinistra{
+    width: 25%;
+    padding-top: 2% ;
+    padding-right: 5%;
+    
+}
+#Destra{ 
+    width: 100%;
+    
+    margin-top: 2% ;
+   height: 100%;
+}
+.Muletti{
+    background-color: white;
+    padding: 2% 3%;
+}
+.Mulettiimg {
+   padding: 0% 22% ;
+}
+.ultimo{
+    margin-top: 5%;;
+display: flex;
+flex-direction: column;
+}
+.post{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+h2{
+    color: #7f6ba5;
+}
+h1{
+    color: #4c4067;
+}
+#data{
+    color: grey;
+    margin-right: 5px;
+}
+a {
+    color: black;
+}
+h6{
+    color:rgb(187, 183, 183)
+}
